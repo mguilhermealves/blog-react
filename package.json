@@ -6,14 +6,18 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.3",
     "@testing-library/user-event": "^12.6.2",
+    "node-sass": "^4.14.1",
     "react": "^17.0.1",
+    "react-axios": "^2.0.4",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start sass-watch",
+    "react-start": "react-scripts start",
+    "sass-watch": "node-sass --watch src/resources/scss:src/resources/css",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

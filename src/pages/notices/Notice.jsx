@@ -5,7 +5,7 @@ class Notice extends React.Component{
     render() {
         return (
             <Dashboard>
-                <h1>Notice</h1>
+                <h1>Notícias</h1>
             </Dashboard>
         )
     }

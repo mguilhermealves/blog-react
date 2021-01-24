@@ -6,14 +6,18 @@ import {
 class Menu extends React.Component{
     render() {
         return (
-            <ul>
-                <li>
-                    <Link to={'/'}>Inicio</Link>
-                </li>
-                <li>
-                    <Link to={'/notices'}>Noticias</Link>
-                </li>
-            </ul>
+            <nav>
+                <div className="container">
+                    <ul>
+                        <li>
+                            <Link to={'/'}>Inicio</Link>
+                        </li>
+                        <li>
+                            <Link to={'/notices'}>Notícias</Link>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         )
     }
 }
