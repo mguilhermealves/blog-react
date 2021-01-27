@@ -1,10 +1,15 @@
 /**
  * Common
- */
- @import './common/base';
+*/
+@import './common/base';
 
 
 /**
  * Parts
- */
- @import './parts/header';
+*/
+@import './parts/header';
+
+/**
+ * Pages
+*/
+@import './pages/home';
